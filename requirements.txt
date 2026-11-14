@@ -1,0 +1,12 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.5.1+cpu; platform_system == "Linux"
+torch==2.5.1; platform_system != "Linux"
+streamlit==1.50.0
+streamlit-webrtc==0.63.1
+mediapipe==0.10.13
+numpy==1.26.4
+pyarrow==17.0.0
+opencv-contrib-python==4.11.0.86
+protobuf==4.25.3
+jax==0.4.30
+jaxlib==0.4.30
